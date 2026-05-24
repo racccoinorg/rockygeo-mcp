@@ -1,7 +1,22 @@
 {
   "name": "rockygeo-mcp",
   "author": "racccoinorg <support@racccoin.org>",
-  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/racccoinorg/rockygeo-mcp"
+  },
+  "homepage": "https://github.com/racccoinorg/rockygeo-mcp",
+  "bugs": {
+    "url": "https://github.com/racccoinorg/rockygeo-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "rockygeo",
+    "ip geolocation",
+    "ip address geolocation"
+  ],
+  "version": "0.1.2",
   "description": "MCP server wrapping the RockyGeo IP geolocation API",
   "type": "module",
   "bin": {
