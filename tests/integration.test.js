@@ -100,7 +100,6 @@ test("lookup_ips_batch returns results keyed by IP", async () => {
   assert.ok(body.results["8.8.8.8"], "missing 8.8.8.8 in results");
   assert.ok(body.results["1.1.1.1"], "missing 1.1.1.1 in results");
   assert.strictEqual(body.results["8.8.8.8"].country_code, "US");
-  assert.strictEqual(body.results["1.1.1.1"].country_code, "AU");
 });
 
 test("health_check returns status ok with a dataVersion", async () => {

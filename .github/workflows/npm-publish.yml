@@ -14,6 +14,9 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm test
+        env:
+          RAPIDAPI_KEY: ${{ secrets.api_key }}
+          ROCKYGEO_BASE_URL: ${{ secrets.api_base_url }}
 
   publish-npm:
     needs: build
