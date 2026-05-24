@@ -14,7 +14,7 @@ npm run build
 | Variable                 | Default                                 | Notes                                                   |
 | ------------------------ | --------------------------------------- | ------------------------------------------------------- |
 | `RAPIDAPI_KEY`           | (required)                              | Sent as `x-rapidapi-key`. Override with `--api-key <k>`. |
-| `ROCKYGEO_BASE_URL`      | `https://rocky-geo.p.rapidapi.com/v1`   | Point at a self-hosted RockyGeo if you have one.        |
+| `ROCKYGEO_BASE_URL`      | `https://rocky-geo.p.rapidapi.com/v1`   | Point at a different Rocky Geo API provider.        |
 | `ROCKYGEO_RAPIDAPI_HOST` | parsed from base URL                    | Sent as `x-rapidapi-host` for `*.rapidapi.com` hosts.   |
 
 ## MCP client setup
