@@ -1,5 +1,6 @@
 {
   "name": "rockygeo-mcp",
+  "author": "racccoinorg <support@racccoin.org>",
   "version": "0.1.0",
   "description": "MCP server wrapping the RockyGeo IP geolocation API",
   "type": "module",
